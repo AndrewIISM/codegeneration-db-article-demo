@@ -1,0 +1,14 @@
+plugins {
+    id 'java-library'
+}
+
+group = 'com.generation.db'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.squareup:javapoet:1.13.0'
+}
